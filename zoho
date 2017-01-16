@@ -9,11 +9,11 @@ for(i=0;i<(j/2);i++)
 {
 if(a[i]==a[j-1+i])
 {
-k=1;
-break;
+k++;
+//break;
 }
 }
-if(k==1)
+if(k==j/2)
 {
 printf("palindrome");
 }
